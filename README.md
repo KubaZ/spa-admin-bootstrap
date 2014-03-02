@@ -1,4 +1,4 @@
-SPA Admin Panel Bootstrap [![Build Status](https://travis-ci.org/KubaZ/spa-admin-bootstrap.png?branch=master)](https://travis-ci.org/KubaZ/spa-admin-bootstrap)
+SPA Admin Panel Bootstrap [![Build Status](https://travis-ci.org/KubaZ/spa-admin-bootstrap.png)](https://travis-ci.org/KubaZ/spa-admin-bootstrap)[![Coverage Status](https://coveralls.io/repos/KubaZ/spa-admin-bootstrap/badge.png)](https://coveralls.io/r/KubaZ/spa-admin-bootstrap)
 ========
 
 About:
