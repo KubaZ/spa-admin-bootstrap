@@ -7,3 +7,4 @@ before_script:
 script:
   - 'grunt test:unit'
   - 'grunt test:e2e'
+  - 'grunt coveralls'

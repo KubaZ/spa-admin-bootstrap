@@ -370,8 +370,7 @@ module.exports = function (grunt) {
     'concurrent:test',
     'autoprefixer',
     'connect:test',
-    'karma:unit',
-    'coveralls'
+    'karma:unit'
   ]);
 
   grunt.registerTask('test:e2e', [
