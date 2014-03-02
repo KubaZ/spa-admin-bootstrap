@@ -84,6 +84,15 @@ module.exports = function (grunt) {
           ]
         }
       },
+      e2e: {
+        options: {
+          base: [
+            '.tmp',
+            'test',
+            '<%= yeoman.app %>'
+          ]
+        }
+      },
       dist: {
         options: {
           base: '<%= yeoman.dist %>'
@@ -320,6 +329,10 @@ module.exports = function (grunt) {
       unit: {
         configFile: 'karma.conf.js',
         singleRun: true
+      },
+      e2e: {
+        configFile: 'karma-e2e.conf.js',
+        singleRun: true
       }
     }
   });
@@ -345,12 +358,20 @@ module.exports = function (grunt) {
     grunt.task.run(['serve']);
   });
 
-  grunt.registerTask('test', [
+  grunt.registerTask('test:unit', [
     'clean:server',
     'concurrent:test',
     'autoprefixer',
-    'connect:test',
-    'karma'
+    'connect:unit',
+    'karma:unit'
+  ]);
+
+  grunt.registerTask('test:e2e', [
+    'clean:server',
+    'concurrent:test',
+    'autoprefixer',
+    'connect:e2e',
+    'karma:e2e'
   ]);
 
   grunt.registerTask('build', [
