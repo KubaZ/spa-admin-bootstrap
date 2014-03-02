@@ -1,15 +1,12 @@
-
-<div class="jumbotron">
-  <h2>{{ 'header' | translate }}</h2>
-  <p>{{ 'bootstrap-description' | translate }}</p>
-  <p>{{ 'boostrap-features-header' | translate }}</p>
-  <ul class="awesome-things">
-    <li class="thing" ng-repeat="feature in awesomeFeatures">
-        <p>{{feature.name | translate}}: {{feature.description | translate}}</p>
-    </li>
-  </ul>
-</div>
-
-<div class="footer">
-  <p>♥ from the Yeoman team</p>
+<div class="container">
+    <div class="jumbotron">
+      <h2>{{ 'header' | translate }}</h2>
+      <p>{{ 'bootstrap-description' | translate }}</p>
+      <p>{{ 'boostrap-features-header' | translate }}</p>
+      <ul class="awesome-things">
+        <li class="thing" ng-repeat="feature in awesomeFeatures">
+            <p>{{feature.name | translate}}: {{feature.description | translate}}</p>
+        </li>
+      </ul>
+    </div>
 </div>
