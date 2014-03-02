@@ -1,1 +1,1 @@
-[![Build Status](https://travis-ci.org/KubaZ/spa-admin-bootstrap)](https://travis-ci.org/KubaZ/spa-admin-bootstrap)
+[![Build Status](https://travis-ci.org/KubaZ/spa-admin-bootstrap.png?branch=master)](https://travis-ci.org/KubaZ/spa-admin-bootstrap)
