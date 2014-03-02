@@ -1,18 +1,21 @@
 'use strict';
 
 angular.module('departmentsAdminApp', [
+  'ngAnimate',
   'ngCookies',
   'ngResource',
   'ngSanitize',
   'ngRoute',
   'pascalprecht.translate'
 ])
-  .config(['$routeProvider', '$translateProvider', function ($routeProvider, $translateProvider) {
+  .config(['$routeProvider', '$translateProvider',
+    function ($routeProvider, $translateProvider) {
     $translateProvider.useStaticFilesLoader({
       prefix: 'translations/locale-',
       suffix: '.json'
     });
-    $translateProvider.preferredLanguage('pl');
+
+    $translateProvider.preferredLanguage('pl_PL');
 
     $routeProvider
       .when('/', {
@@ -21,7 +24,7 @@ angular.module('departmentsAdminApp', [
       })
       .when('/login', {
         templateUrl: 'views/login.html',
-        controller: 'LoginCtrl'
+        controller: 'UserCtrl'
       })
       .otherwise({
         redirectTo: '/'

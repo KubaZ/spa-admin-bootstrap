@@ -1,1 +1,8 @@
-<p>This is the login view.</p>
+<form ng-submit="submit()" class="form-signin" role="form">
+    <input ng-model="user.name" type="email" class="form-control" placeholder="{{ 'User name' | translate }}" required="" autofocus="">
+    <input ng-model="user.password" type="password" class="form-control" placeholder="{{ 'Password' | translate }}" required="">
+    <label class="checkbox">
+      <input type="checkbox" value="remember-me">{{ 'Remember me' | translate }}
+    </label>
+    <button class="btn btn-lg btn-primary btn-block" type="submit">{{ 'Sign in' | translate }}</button>
+</form>
