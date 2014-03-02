@@ -86,6 +86,7 @@ module.exports = function (grunt) {
       },
       e2e: {
         options: {
+          port: 9002,
           base: [
             '.tmp',
             'test',
@@ -362,7 +363,7 @@ module.exports = function (grunt) {
     'clean:server',
     'concurrent:test',
     'autoprefixer',
-    'connect:unit',
+    'connect:test',
     'karma:unit'
   ]);
 

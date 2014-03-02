@@ -46,7 +46,7 @@ module.exports = function(config) {
 
     //Uncomment the following lines if you are using grunt's server to run the tests
     proxies: {
-      '/': 'http://localhost:9000'
+      '/': 'http://localhost:9002'
     },
 
     //URL root prevent conflicts with the site root
