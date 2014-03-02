@@ -338,10 +338,8 @@ module.exports = function (grunt) {
     },
     coveralls: {
       options: {
-        debug: true,
-        coverage_dir: 'coverage',
-        dryRun: false,
-        force: true
+        src: 'coverage/**/lcov.info',
+        force: false
       }
     }
   });
@@ -372,7 +370,8 @@ module.exports = function (grunt) {
     'concurrent:test',
     'autoprefixer',
     'connect:test',
-    'karma:unit'
+    'karma:unit',
+    'coveralls'
   ]);
 
   grunt.registerTask('test:e2e', [
