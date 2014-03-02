@@ -335,6 +335,14 @@ module.exports = function (grunt) {
         configFile: 'karma-e2e.conf.js',
         singleRun: true
       }
+    },
+    coveralls: {
+      options: {
+        debug: true,
+        coverage_dir: 'coverage',
+        dryRun: false,
+        force: true
+      }
     }
   });
 
