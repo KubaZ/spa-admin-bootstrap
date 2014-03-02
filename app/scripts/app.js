@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('departmentsAdminApp', [
+angular.module('spaAdminApp', [
   'ngAnimate',
   'ngCookies',
   'ngResource',

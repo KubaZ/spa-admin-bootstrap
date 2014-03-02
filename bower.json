@@ -1,5 +1,5 @@
 {
-  "name": "departments-admin",
+  "name": "spa-admin-app",
   "version": "0.0.0",
   "dependencies": {
     "angular": "1.2.6",
@@ -20,6 +20,6 @@
     "angular-scenario": "1.2.6"
   },
   "resolutions": {
-    "angular": "1.2.6"
+    "angular": "1.2.14"
   }
 }
