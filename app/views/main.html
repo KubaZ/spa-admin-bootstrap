@@ -1,14 +1,6 @@
-<div class="header">
-  <ul class="nav nav-pills pull-right">
-    <li class="active"><a ng-href="#">Home</a></li>
-    <li><a ng-href="#">About</a></li>
-    <li><a ng-href="#">Contact</a></li>
-  </ul>
-  <h3 class="text-muted">departments admin</h3>
-</div>
 
 <div class="jumbotron">
-  <h1>'Allo, 'Allo!</h1>
+  <h1>{{ 'header' | translate }}</h1>
   <ul class="awesome-things">
     <li class="thing" ng-repeat="thing in awesomeThings">{{thing}}</li>
   </ul>
