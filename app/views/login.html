@@ -1,6 +1,6 @@
 <form ng-submit="submit()" class="form-signin" role="form">
-    <input ng-model="user.name" type="email" class="form-control" placeholder="{{ 'User name' | translate }}" required="" autofocus="">
-    <input ng-model="user.password" type="password" class="form-control" placeholder="{{ 'Password' | translate }}" required="">
+    <input name="name" ng-model="user.name" type="text" class="form-control first" placeholder="{{ 'User name' | translate }}" required="" autofocus="">
+    <input name="password" ng-model="user.password" type="password" class="form-control last" placeholder="{{ 'Password' | translate }}" required="">
     <label class="checkbox">
       <input type="checkbox" value="remember-me">{{ 'Remember me' | translate }}
     </label>

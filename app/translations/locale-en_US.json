@@ -1,5 +1,7 @@
 {
     "header": "Header",
+    "bootstrap-description": "Single page application admin panel bootstrap.",
+    "boostrap-features-header": "Bootstrap features:",
     "login": "Login",
     "Password": "Password",
     "User name": "User name",

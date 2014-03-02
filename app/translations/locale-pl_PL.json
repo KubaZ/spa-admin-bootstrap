@@ -1,5 +1,7 @@
 {
     "header": "Nagłówek",
+    "bootstrap-description": "Bootstrap do panelu administracyjnego w technologi single page application.",
+    "boostrap-features-header": "Bootstrap zawiera:",
     "login": "Logowanie",
     "Password": "Hasło",
     "User name": "Nazwa użytkownika",
