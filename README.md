@@ -1,5 +1,26 @@
-SPA Admin Panel Bootstrap [![Build Status](https://travis-ci.org/KubaZ/spa-admin-bootstrap.png)](https://travis-ci.org/KubaZ/spa-admin-bootstrap)[![Coverage Status](https://coveralls.io/repos/KubaZ/spa-admin-bootstrap/badge.png)](https://coveralls.io/r/KubaZ/spa-admin-bootstrap)
+SPA Admin Panel Bootstrap [![Build Status](https://travis-ci.org/KubaZ/spa-admin-bootstrap.png)](https://travis-ci.org/KubaZ/spa-admin-bootstrap)
 ========
+
+Requirements
+--------
+Latest version of node and npm.
+
+Installation
+--------
+```npm install```
+```bower install```
+
+Usage
+--------
+Run application on local machine:
+```grunt serve```
+
+Build application for prod env:
+```grunt build```
+
+Run tests:
+- Unit tests: ```grunt test:unit```
+- E2E tests: ```grunt test:e2e```
 
 About:
 --------
